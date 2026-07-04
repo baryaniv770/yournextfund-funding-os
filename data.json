@@ -1,0 +1,221 @@
+{
+  "merchants": [
+    {
+      "id": 1,
+      "biz": "Apex Construction",
+      "owner": "Marcus T.",
+      "ind": "Construction",
+      "rev": 85000,
+      "months": 38,
+      "phone": "(305) 555-0112",
+      "email": "marcus@apexcon.com"
+    },
+    {
+      "id": 2,
+      "biz": "Bloom Cafe",
+      "owner": "Priya S.",
+      "ind": "Restaurant",
+      "rev": 32000,
+      "months": 19,
+      "phone": "(305) 555-0134",
+      "email": "priya@bloomcafe.com"
+    },
+    {
+      "id": 3,
+      "biz": "Northstar Logistics",
+      "owner": "David L.",
+      "ind": "Transportation",
+      "rev": 210000,
+      "months": 52,
+      "phone": "(305) 555-0177",
+      "email": "david@northstar.com"
+    },
+    {
+      "id": 4,
+      "biz": "Lopez Auto Repair",
+      "owner": "Carlos L.",
+      "ind": "Auto Repair",
+      "rev": 24000,
+      "months": 9,
+      "phone": "(305) 555-0190",
+      "email": "carlos@lopezauto.com"
+    }
+,
+    {
+      "id": 5,
+      "biz": "Sunrise Grocery",
+      "owner": "Amine K.",
+      "ind": "Grocery",
+      "rev": 60000,
+      "months": 27,
+      "phone": "(305) 555-0155",
+      "email": "amine@sunrisegrocery.com"
+    }
+  ],
+  "lenders": [
+    {
+      "id": 1,
+      "name": "Backd",
+      "type": "MCA Funder",
+      "minRev": 20000,
+      "minMonths": 12,
+      "maxAmt": 500000,
+      "email": "submissions@backd.com"
+    },
+    {
+      "id": 2,
+      "name": "Bitty Advance",
+      "type": "MCA Funder",
+      "minRev": 8000,
+      "minMonths": 6,
+      "maxAmt": 35000,
+      "email": "iso@bitty.com"
+    },
+    {
+      "id": 3,
+      "name": "Rapid Finance",
+      "type": "MCA Funder",
+      "minRev": 15000,
+      "minMonths": 6,
+      "maxAmt": 600000,
+      "email": "deals@rapidfinance.com"
+    },
+    {
+      "id": 4,
+      "name": "Fora Financial",
+      "type": "MCA Funder",
+      "minRev": 12000,
+      "minMonths": 6,
+      "maxAmt": 750000,
+      "email": "iso@forafinancial.com"
+    },
+    {
+      "id": 5,
+      "name": "Kapitus",
+      "type": "MCA Funder",
+      "minRev": 20000,
+      "minMonths": 24,
+      "maxAmt": 5000000,
+      "email": "submissions@kapitus.com"
+    },
+    {
+      "id": 6,
+      "name": "Credibly",
+      "type": "MCA Funder",
+      "minRev": 15000,
+      "minMonths": 6,
+      "maxAmt": 400000,
+      "email": "iso@credibly.com"
+    },
+    {
+      "id": 7,
+      "name": "Everest Business Funding",
+      "type": "MCA Funder",
+      "minRev": 10000,
+      "minMonths": 4,
+      "maxAmt": 200000,
+      "email": "submissions@everestbusinessfunding.com"
+    },
+    {
+      "id": 8,
+      "name": "Mulligan Funding",
+      "type": "MCA Funder",
+      "minRev": 25000,
+      "minMonths": 12,
+      "maxAmt": 1000000,
+      "email": "iso@mulliganfunding.com"
+    },
+    {
+      "id": 9,
+      "name": "Torro",
+      "type": "High-Risk Funder",
+      "minRev": 8000,
+      "minMonths": 3,
+      "maxAmt": 100000,
+      "email": "deals@torro.com"
+    },
+    {
+      "id": 10,
+      "name": "Greenbox Capital",
+      "type": "MCA Funder",
+      "minRev": 7000,
+      "minMonths": 5,
+      "maxAmt": 250000,
+      "email": "iso@greenboxcapital.com"
+    }
+  ],
+  "deals": [
+    {
+      "id": 1,
+      "merchantId": 1,
+      "amount": 180000,
+      "stage": "funding",
+      "docs": [
+        "bank-statements-3mo.pdf",
+        "signed-application.pdf"
+      ]
+    },
+    {
+      "id": 2,
+      "merchantId": 2,
+      "amount": 45000,
+      "stage": "underwriting",
+      "docs": [
+        "bank-statements-3mo.pdf"
+      ]
+    },
+    {
+      "id": 3,
+      "merchantId": 3,
+      "amount": 250000,
+      "stage": "decision",
+      "docs": [
+        "bank-statements-3mo.pdf",
+        "tax-return.pdf"
+      ]
+    },
+    {
+      "id": 4,
+      "merchantId": 4,
+      "amount": 30000,
+      "stage": "intake",
+      "docs": []
+    },
+    {
+      "id": 5,
+      "merchantId": 5,
+      "amount": 60000,
+      "stage": "servicing",
+      "docs": [
+        "bank-statements-3mo.pdf",
+        "signed-application.pdf",
+        "contract.pdf"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "id": 101,
+      "name": "Jenna R.",
+      "biz": "Coastline HVAC",
+      "amount": "$25K–$100K",
+      "source": "yournextfund.com"
+    },
+    {
+      "id": 102,
+      "name": "Tomer Z.",
+      "biz": "TZ Marketing",
+      "amount": "$5K–$25K",
+      "source": "yournextfund.com"
+    },
+    {
+      "id": 103,
+      "name": "Sofia M.",
+      "biz": "Bella Beauty Bar",
+      "amount": "$25K–$100K",
+      "source": "yournextfund.com (ES)"
+    }
+  ],
+  "submissions": [],
+  "seq": 1000
+}
